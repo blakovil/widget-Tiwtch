@@ -1,0 +1,155 @@
+{
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Color texto",
+    "value": "rgb(0, 255, 0)",
+    "group": "Estilo y Color Texto"
+  },
+  "fontName": {
+     "group": "Texto",
+    "type": "googleFont",
+    "label": ".",
+    "value": "Passion One"
+    },
+  "fontSize": {
+    "type": "text",
+    "label": "Tamaño Letra",
+    "value": " ",
+    "group": "Texto"
+  },
+  "fontWeight": {
+    "group": "Texto",
+  	"type": "dropdown",
+    "label": "Grosor de la letra.",
+    "value": "400",
+    "options": {
+      "100": "100 - Thin",
+      "300": "300 - Light",
+      "400": "400 - Regular",
+      "500": "500 - Medium",
+      "700": "700 - Bold",
+      "900": "900 - Black"
+    }
+  },
+  "textTransform":{
+    "type":"dropdown",
+    "label":"Transformar texto",
+    "options":{
+      "none":"normal",
+      "uppercase":"Mayúsculas",
+      "lowercase":"Minúsculas"
+    },
+    "value":"normal",
+     "group":"Estilo y Color Texto"
+  },
+  "textShadowColor":{
+    "type":"colorpicker",
+    "label":"Color de la sombra (texto)",
+    "value":"rgba(0,0,0,0.4)",
+     "group":"Estilo y Color Texto"
+  },
+  "textShadowHorizontal":{
+    "type":"slider",
+    "label":"Mover sombra horizontalmente",
+    "value":0,
+    "min":-10,
+    "max":20,
+    "step":1,
+    "group":"Estilo y Color Texto"
+  },
+  "textShadowVertical":{
+    "type":"slider",
+    "label":"Mover sombra verticalmente",
+    "value":2,
+    "min":-10,
+    "max":20,
+    "step":1,
+    "group":"Estilo y Color Texto"
+  },
+  "textShadowBlur":{
+    "type":"slider",
+    "label":"Difuminación de la sombra",
+    "value":3,
+    "min":0,
+    "max":20,
+    "step":1,
+    "group":"Estilo y Color Texto"
+  },
+  "backgroundColor":{
+    "type":"colorpicker",
+    "label":"Color del Fondo",
+    "value":"rgb(21, 21, 21)",
+    "group":"Estilo del Widget"
+  },
+  "borderColor":{
+    "type":"colorpicker",
+    "label":"Color del Borde",
+    "value":"rgb(255, 255, 255)",
+    "group":"Estilo del Widget"
+  },
+  "borderWidth":{
+    "type":"slider",
+    "label":"Grosor del borde",
+    "value":8,
+    "min":0,
+    "max":20,
+    "step":1,
+    "group":"Estilo del Widget"
+  },
+  "borderRadius":{
+    "type":"slider",
+    "label":"Puntas redondeadas",
+    "value":40,
+    "min":0,
+    "max":90,
+    "step":1,
+    "group":"Estilo del Widget"
+  },
+  "borderStyle":{
+    "type":"dropdown",
+    "label":"Estilo del borde",
+    "options":{
+      "none":"Nada",
+      "solid":"Sólido",
+      "dotted":"Puntos",
+      "dashed":"Líneas"
+    },
+    "value":"none",
+    "group":"Estilo del Widget"
+  },
+  "boxShadowColor":{
+    "type":"colorpicker",
+    "label":"Color de la Sombra",
+    "value":"rgba(0,0,0,0.4)",
+    "group":"Estilo del Widget"
+  },
+  "boxShadowHorizontal":{
+    "type":"slider",
+    "label":"Mover sombra horizontalmente",
+    "value":0,
+    "min":-10,
+    "max":20,
+    "step":1,
+    "group":"Estilo del Widget"
+  },
+  "boxShadowVertical":{
+    "type":"slider",
+    "label":"Mover sombra verticalmente",
+    "value":3,
+    "min":-10,
+    "max":20,
+    "step":1,
+    "group":"Estilo del Widget"
+  },
+  "boxShadowBlur":{
+    "type":"slider",
+    "label":"Difuminación de la sombra",
+    "value":2,
+    "min":0,
+    "max":20,
+    "step":1,
+    "group":"Estilo del Widget"
+  }
+}
+
+ 
