@@ -1,0 +1,38 @@
+
+* 
+{
+  font-family: {{fontName}};
+  font-size: {{fontSize}}px;
+  font-weight: {{fontWeight}};
+  color: {{fontColor}};
+  text-align: center;
+  text-shadow: {{textShadowHorizontal}}px {{textShadowVertical}}px {{textShadowBlur}}px {{textShadowColor}};
+  text-transform: {{textTransform}};
+}
+/* Estilos Principales */
+body 
+{
+  	margin: 0;
+  	padding: 0;
+}
+.main-container 
+{
+	height: 100%;
+  	width: 100%;
+}
+/* Estilos Widget */
+.widget-container
+{
+  position: relative;
+  height: calc( 100% - 80px );
+  width: calc( 100% - 80px );
+ 	margin: 40px;
+  	overflow: hidden;
+  	box-sizing: border-box;
+  background-color: {{backgroundColor}};
+  border-color: {{borderColor}};
+  border-radius: {{borderRadius}}px;
+  border: {{borderWidth}}px {{borderStyle}} {{borderColor}};
+  box-shadow: {{boxShadowHorizontal}}px {{boxShadowVertical}}px {{boxShadowBlur}}px {{boxShadowColor}};
+  widget-padding: {{widgetPadding}}px;
+}
